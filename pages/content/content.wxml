@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="page-body">
+    
+    <view class="category-title">
+      <text class="title-text">类目名称</text>
+    </view>
+    
+    <view class="swiper-container">
+      <swiper class="usr-swiper"  autoplay="" interval="2000" duration="500">
+        <block >
+          <swiper-item>
+            <image class="swiper-item1" src="/images/1.jpg" mode="aspectFit"></image> 
+          </swiper-item>
+          <swiper-item>
+            <image class="swiper-item2" src="/images/2.jpg" mode="aspectFit"></image> 
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  </view>
+</view>

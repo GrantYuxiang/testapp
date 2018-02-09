@@ -1,0 +1,15 @@
+{
+  "pages": [
+    
+    "pages/category/category",
+    "pages/content/content"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "心朴家居",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  
+  "debug": false
+}

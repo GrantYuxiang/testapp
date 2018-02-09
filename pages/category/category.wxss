@@ -1,0 +1,76 @@
+page {
+  height: 100%;
+}
+
+.container {
+  height: 100%;
+}
+
+
+.category-title{
+  width: 100%;
+  text-align: center;
+  padding: 15rpx 0 15rpx 0;
+  position: fixed;
+  z-index: 999;
+  background-color: white
+
+}
+
+.category-title .title-text {
+  display: inline-block;
+  width: 260rpx;
+  background-image: url(http://oy9ro3srb.bkt.clouddn.com/wxapp/image/icons/arrowdown.png);
+  background-repeat: no-repeat;
+  background-size: 60rpx;
+  background-position: right;
+}
+
+.category-title .up {
+  background-image: url(http://oy9ro3srb.bkt.clouddn.com/wxapp/image/icons/arrowup.png);
+}
+
+.title-text {
+  color:#6c6c6c;
+  font-size: 40rpx;
+  
+}
+
+.usr-scroll {
+  padding-top: 50rpx;
+  text-align: center;
+}
+
+.usr-scroll .image{
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  display: grid;
+  position: relative;
+  margin-bottom: 10rpx;
+  font-size: 0rpx;
+} 
+
+.usr-scroll image{
+  width: 100%;
+  z-index: -1;
+}
+
+.title-cover {
+  position: absolute;
+  bottom: 0rpx;
+  width:auto;
+  left: 10rpx;
+  right: 10rpx;
+  display: grid;
+  background-color:rgba(0,0,0,0.4);
+  text-align: left;
+}
+
+.title-cover text{
+  font-size: 32rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  padding-left: 10rpx;
+  color: white;
+  text-align: left;
+}

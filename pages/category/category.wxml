@@ -1,0 +1,38 @@
+<view class="container" sroll-y="false">
+  <view class="category-title">
+    <text class="title-text up">类目名称</text>
+  </view>
+
+  <scroll-view class="usr-scroll" scroll-y="true">
+    <view class='image'>
+      <image src="http://oy9ro3srb.bkt.clouddn.com/wxapp/image/%E5%BA%8A1.jpg" mode='widthFix'></image>
+      <view class="title-cover">
+        <text>555</text>
+      </view>
+    </view>
+    <view class='image'>
+      <view class="title-cover">
+        <text>123</text>
+      </view>
+      <image src="http://oy9ro3srb.bkt.clouddn.com/wxapp/image/%E8%A1%A3%E6%9F%9C-%E6%8E%A8%E6%8B%89.jpg" mode='widthFix'></image>
+    </view>
+    <view class='image'>
+      <view class="title-cover">
+        <text>123</text>
+      </view>
+      <image src="http://oy9ro3srb.bkt.clouddn.com/wxapp/image/%E8%A1%A3%E6%9F%9C.jpg" mode='widthFix'></image>
+    </view>
+    <view class='image'>
+      <view class="title-cover">
+        <text>123</text>
+      </view>
+      <image src="http://oy9ro3srb.bkt.clouddn.com/wxapp/image/%E8%8C%B6%E5%87%A0.jpg" mode='widthFix'></image>
+    </view>
+    <view class='image'>
+      <view class="title-cover">
+        <text>123</text>
+      </view>
+      <image src="http://oy9ro3srb.bkt.clouddn.com/wxapp/image/%E4%B9%A6%E6%9F%9C.jpg" mode='widthFix'></image>
+    </view>
+  </scroll-view>
+</view>
